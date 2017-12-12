@@ -51,12 +51,12 @@ public class Calculator implements ActionListener {
     /**
      * 
      * @param num
-     * @param dino
+     * @param deno
      * @return
      */
-    public static double division(int num, int dino) {
+    public static double division(int num, int deno) {
     	if (num == 0) {}
-    		return (double)(num/dino);
+    		return (double)(num/deno);
     }
     /**
      * 
