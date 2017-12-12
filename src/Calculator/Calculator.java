@@ -37,7 +37,7 @@ public class Calculator implements ActionListener {
      * @return- return double
      */
     public static double addition(int x, int y) {
-    	return (double)(x+y);
+    	return ((double)x+y);
     }
     /**
      * 
@@ -46,7 +46,7 @@ public class Calculator implements ActionListener {
      * @return
      */
     public static double multiplication(int x, int y) {
-    	return (double)(x*y);
+    	return ((double)x*y);
     }
     /**
      * 
@@ -56,7 +56,7 @@ public class Calculator implements ActionListener {
      */
     public static double division(int num, int deno) {
     	if (num == 0) {}
-    		return (double)(num/deno);
+    		return ((double)num/deno);
     }
     /**
      * 
@@ -65,7 +65,7 @@ public class Calculator implements ActionListener {
      * @return
      */
    public static double substruction(int x, int y) {
-	   return (double)(x-y);
+	   return ((double)x-y);
    }
     
 
