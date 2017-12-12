@@ -67,6 +67,14 @@ public class Calculator implements ActionListener {
    public static double subtraction(double x, double y) {
 	   return (x-y);
    }
-    
+   /**
+    * 
+    * @param x
+    * @return
+    */
+    public static double squareRoot(double x) {
+    	if (x<0) {}
+    	return Math.sqrt(x);
+    }
 
 }
