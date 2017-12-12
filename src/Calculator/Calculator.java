@@ -31,41 +31,41 @@ public class Calculator implements ActionListener {
         
     }
     /**
-     * 
-     * @param x takes int 
-     * @param y takes
+     * Addiction
+     * @param x
+     * @param y 
      * @return- return double
      */
-    public static double addition(int x, int y) {
-    	return ((double)x+y);
+    public static double addition(double x, double y) {
+    	return (x+y);
     }
     /**
-     * 
+     * Multiplication
      * @param x
      * @param y
      * @return
      */
-    public static double multiplication(int x, int y) {
-    	return ((double)x*y);
+    public static double multiplication(double x, double y) {
+    	return (x*y);
     }
     /**
-     * 
+     * Division
      * @param num
      * @param deno
      * @return
      */
-    public static double division(int num, int deno) {
+    public static double division(double num, double deno) {
     	if (num == 0) {}
-    		return ((double)num/deno);
+    		return (num/deno);
     }
     /**
-     * 
+     * Subtraction
      * @param x
      * @param y
      * @return
      */
-   public static double substruction(int x, int y) {
-	   return ((double)x-y);
+   public static double subtraction(double x, double y) {
+	   return (x-y);
    }
     
 
