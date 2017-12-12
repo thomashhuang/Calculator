@@ -30,19 +30,43 @@ public class Calculator implements ActionListener {
         // TODO Auto-generated method stub
         
     }
-    
+    /**
+     * 
+     * @param x takes int 
+     * @param y takes
+     * @return- return double
+     */
     public static double addition(int x, int y) {
     	return (double)(x+y);
     }
+    /**
+     * 
+     * @param x
+     * @param y
+     * @return
+     */
     public static double multiplication(int x, int y) {
     	return (double)(x*y);
     }
+    /**
+     * 
+     * @param num
+     * @param dino
+     * @return
+     */
     public static double division(int num, int dino) {
     	if (num == 0) {}
     		return (double)(num/dino);
-    	
-   
     }
+    /**
+     * 
+     * @param x
+     * @param y
+     * @return
+     */
+   public static double substruction(int x, int y) {
+	   return (double)(x-y);
+   }
     
 
 }
