@@ -23,11 +23,26 @@ public class Calculator implements ActionListener {
     private JButton times = new JButton("*");
     private JButton divide = new JButton("/");
     private JButton equals = new JButton("=");
+    
 
     @Override
     public void actionPerformed(ActionEvent e) {
         // TODO Auto-generated method stub
         
     }
+    
+    public static double addition(int x, int y) {
+    	return (double)(x+y);
+    }
+    public static double multiplication(int x, int y) {
+    	return (double)(x*y);
+    }
+    public static double division(int num, int dino) {
+    	if (num == 0) {}
+    		return (double)(num/dino);
+    	
+   
+    }
+    
 
 }
